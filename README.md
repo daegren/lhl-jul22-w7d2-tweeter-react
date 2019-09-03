@@ -1,3 +1,17 @@
+# Tweeter - React
+
+In order to run this, make sure your tweeter server is running as well.
+
+## Important Files
+
+Take a look at the following files
+
+- [`App.js`](./src/App.js) - Handles all of our main app data state as well as communicating to the back-end server.
+- [`Components/Form.js`](./src/Components/Form.js) - Handles the user input and submission of tweets (in conjunction with `App.js`)
+- [`Components/DateDisplay.js`](./src/Components/DateDisplay.js) - Interesting use of `useEffect` to keep a derived value from props up to date.
+
+# From Create React App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

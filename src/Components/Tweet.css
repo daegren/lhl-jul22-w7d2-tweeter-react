@@ -1,0 +1,23 @@
+.tweet {
+  display: flex;
+  flex-direction: column;
+  border: 2px black solid;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+.tweet .tweet--header {
+  display: flex;
+  align-items: center;
+}
+
+.tweet .tweet--header .tweet--name {
+  flex: 1;
+}
+.tweet .tweet--header .tweet--handle {
+  font-size: 1.5em;
+}
+
+.tweet .tweet--body {
+  border-bottom: 2px solid black;
+}

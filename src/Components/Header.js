@@ -5,7 +5,7 @@ import profile from "../profile-hex.png";
 
 const Header = () => {
   return (
-    <header>
+    <header className="page--header">
       <div>
         <img src={profile} alt="avatar" />
       </div>
