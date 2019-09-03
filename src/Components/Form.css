@@ -1,0 +1,12 @@
+form {
+}
+
+form textarea {
+  width: 100%;
+}
+
+form input[type="submit"] {
+  background-color: #4056a1;
+  color: white;
+  font-family: "Bungee";
+}
